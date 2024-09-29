@@ -1,0 +1,29 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+ion-button {
+  --background: #fbb414;
+  --color: #172d43;
+}
+ion-content {
+  --keyboard-offset: 0px !important;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
