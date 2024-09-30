@@ -17,4 +17,9 @@ export class EstudianteComponent {
       this.router.navigate(['login']); // Redirige al login
     }
   }
+  classes = [
+    { name: 'Programación Móvil', section: '002D', porcentaje: '100%' },
+    { name: 'Arquitectura', section: '001V',porcentaje: '57%' },
+    { name: 'Calidad de Software', section: '003D', porcentaje: '0%' },
+  ];
 }

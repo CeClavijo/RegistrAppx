@@ -6,12 +6,14 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { LoginComponent } from './login/login.component';
 import { EstudianteComponent } from './estudiante/estudiante.component';
 import { ProfesorComponent } from './profesor/profesor.component'; // Importa el componente profesor
+import { QrCodeComponent } from './qr-code/qr-code.component';
 
 @NgModule({
   declarations: [
     LoginComponent,
     EstudianteComponent,
-    ProfesorComponent // Declara el componente profesor
+    ProfesorComponent,
+    QrCodeComponent
   ],
   imports: [
     CommonModule,

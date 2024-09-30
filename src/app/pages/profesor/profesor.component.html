@@ -9,6 +9,15 @@
 
 <ion-content class="ion-padding">
   <h2>Contenido del Profesor</h2>
-  <p>Aquí puedes añadir información relevante para el profesor.</p>
+  <h2>Tus Clases</h2>
+  <ion-list>
+    <ion-item *ngFor="let class of classes" lines="none">
+      <div class="class-details">
+        <span>{{ class.name }}</span>
+        <span>{{ class.section }}</span>
+      </div>
+      <ion-button fill="outline" (click)="passAttendance(class)" slot="end">Pasar Asistencia</ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>
 

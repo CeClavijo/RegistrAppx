@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 56px);
+  height: calc(50vh - 56px);
 }
 
 
@@ -10,4 +10,8 @@
 img {
   max-width: 100%;
   height: auto;
+}
+
+span{
+  padding-left: 20px;
 }

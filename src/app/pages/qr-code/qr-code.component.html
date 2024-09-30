@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="goBack()">Volver</ion-button>
+    </ion-buttons>
+    <ion-title>QR Code</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">Cerrar Sesión</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" fullscreen>
+  <div class="qr-container" style="text-align: center; margin-top: 20%;">
+    <img src="assets/img/qr.png" alt="QR Code" />
+  </div>
+  <h2>Asistentes de hoy</h2>
+  <ion-list>
+    <ion-item>
+      <ion-label>Cesar Clavijo Berrios</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Juan Perez Gonzales</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Angelina Rojas Peralta</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

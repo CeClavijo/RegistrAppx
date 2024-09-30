@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { EstudianteComponent } from './estudiante/estudiante.component';
-import { ProfesorComponent } from './profesor/profesor.component'; // Importa el nuevo componente
+import { ProfesorComponent } from './profesor/profesor.component';
+import { QrCodeComponent } from './qr-code/qr-code.component'; // Importa el nuevo componente
 
 const routes: Routes = [
   {
@@ -15,7 +16,11 @@ const routes: Routes = [
   },
   {
     path: 'profesor',
-    component: ProfesorComponent // Agrega la ruta para el componente de profesor
+    component: ProfesorComponent
+  },
+  {
+    path: 'qr-code',
+    component: QrCodeComponent
   }
 ];
 

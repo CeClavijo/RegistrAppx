@@ -1,0 +1,12 @@
+.class-details {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-right: 8px;
+}
+
+ion-button {
+  margin-left: auto;
+  --background: #fbb414;
+  --color: #172d43;
+}
