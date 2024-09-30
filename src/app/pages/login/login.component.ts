@@ -18,9 +18,13 @@ export class LoginComponent {
     // Simula una validación simple
     if (this.userType === 'estudiante' && this.username === 'ce.clavijo' && this.password === 'password') {
       console.log('Ingreso exitoso');
-      this.router.navigate(['login/estudiante']); // Aquí navegas al componente estudiante
+      this.router.navigate(['login/estudiante']); // Navega al componente estudiante
+    } else if (this.userType === 'profesor' && this.username === 'hel.bustos' && this.password === 'password') {
+      console.log('Ingreso exitoso');
+      this.router.navigate(['login/profesor']); // Navega al componente profesor
     } else {
       this.errorMessage = 'Credenciales incorrectas';
     }
   }
+
 }
